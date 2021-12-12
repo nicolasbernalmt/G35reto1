@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/productos"
+        android:title="PRODUCTOS"
+        android:icon="@drawable/favorito"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/productos1"
+                android:title="BUZOS"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/productos2"
+                android:title="CHALECOS"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/productos3"
+                android:title="CUERO"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/productos4"
+                android:title="PERSONALIZADAS"
+                app:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/servicios"
+        android:title="SERVICIOS"
+        android:icon="@drawable/iconservicios"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/sucursales"
+        android:title="SUCURSALES"
+        android:icon="@drawable/casa"
+        app:showAsAction="always"/>
+
+</menu>
